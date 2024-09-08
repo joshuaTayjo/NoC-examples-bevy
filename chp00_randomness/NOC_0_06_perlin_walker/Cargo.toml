@@ -1,0 +1,8 @@
+[package]
+name = "NOC_0_06_perlin_walker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.14.2"
+noise = "0.9.0"
