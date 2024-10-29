@@ -79,6 +79,7 @@ fn ball_move(mut query: Query<(&mut Ball, &mut Transform)>) {
     transform.translation = (ball.x, ball.y, 0.0).into();
 }
 
+// Simple function to close window when esc is pressed
 fn close_on_esc(
     mut commands: Commands,
     focused_windows: Query<(Entity, &Window)>,
